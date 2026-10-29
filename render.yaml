@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: businessx
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
